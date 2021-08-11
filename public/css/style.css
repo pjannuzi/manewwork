@@ -1,0 +1,106 @@
+#cla {
+    height: auto;
+}
+.bg-padrao{
+    background-color:#f0edea;
+}
+.texto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    width: 350px;
+    padding-top:100px;
+    padding-left:50px;
+}
+.test{
+    background-color: white;
+}
+#testado h2 {
+    font-size: 45px;
+}
+
+@media (min-width: 768px){
+.pcontainer, .pcontainer-md, .pcontainer-sm {
+    max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+.pcontainer, .pcontainer-lg, .pcontainer-md, .pcontainer-sm {
+    max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+.pcontainer, .pcontainer-lg, .pcontainer-md, .pcontainer-sm, .pcontainer-xl {
+    max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px){
+.pcontainer, .pcontainer-lg, .pcontainer-md, .pcontainer-sm, .pcontainer-xl, .pcontainer-xxl {
+    max-width: 1280px;
+    }
+}
+
+.pcontainer, .pcontainer-fluid, .pcontainer-lg, .pcontainer-md, .pcontainer-sm, .pcontainer-xl, .pcontainer-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.itens {
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+.item {
+    border: solid 2px #f0edea;
+    border-radius: 10px;
+    padding: 60px 15px;
+    position: relative;
+    transition: all .25s;
+}
+
+.pnavbar {
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: .10rem;
+padding-bottom: .10rem;
+}
+
+.precos::after {
+    content: "";
+    width: 110px;
+    height: 3px;
+    background-color: #f0edea;
+    display: block;
+    margin: 10px auto 20px auto;
+}
+.precos1::after {
+    content: "RECOMENDADO";
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #ed3237;
+    color: #fff;
+    padding: 8px 12px;
+    width: 150px;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    margin-left:60px;
+}
+
+.recommend {
+    background: #f3f3f3;
+    margin-top: -20px;
+    border-color: #f3f3f3;
+}
